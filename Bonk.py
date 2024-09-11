@@ -14,7 +14,7 @@ plt.style.use('bmh')
 ###Fetching the Data
 
 tickers= ['BONK-USD']
-df=yf.download(tickers,start="2023-1-1", end='2024-12-31')
+df=yf.download(tickers,start="2022-1-1", end='2024-12-31')
 df1=df['Close']
 
 df.head()
