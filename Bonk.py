@@ -267,8 +267,8 @@ df4=df3.reset_index()
 
 
 data=df4.tail(10)
-data.round(6)
-data
+dat=data.round(6)
+dat
 
 
 # import plotly.express as px
