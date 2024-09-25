@@ -267,6 +267,8 @@ df4=df3.reset_index()
 
 
 data=df4.tail(10)
+data.Close = data.Close.round(6)
+
 data
 
 
