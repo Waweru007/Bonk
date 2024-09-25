@@ -268,7 +268,7 @@ df4=df3.reset_index()
 
 data=df4.tail(10)
 formatted_data = data.style.format({"Close": "{:.8f}".format})
-st.write(formatted_df)
+st.write(formatted_data)
 
 
 
