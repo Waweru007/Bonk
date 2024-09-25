@@ -267,7 +267,7 @@ df4=df3.reset_index()
 
 
 data=df4.tail(10)
-st.write(data.style.format({"Predictions": "{:.8f}"}))
+st.write(data.style.format({"Close": "{:.8f}"}))
 
 
 
